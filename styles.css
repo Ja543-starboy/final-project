@@ -1,0 +1,18 @@
+/* Mobile-first approach */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    /* Tablet/desktop styles */
+    .hero {
+      padding: 2rem;
+    }
+  }
